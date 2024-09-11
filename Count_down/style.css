@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    background-color: rgb(201, 196, 196);
+    width: fit-content;
+    margin: auto;
+    padding: 30px;
+}
+
+#container{
+   text-align: center;
+   margin-top: 50px;
+   background-color: white;
+   padding: 5px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+#text{
+    width: 60px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    border: 1px solid black;
+    padding: 0px 1px 0px 1px;
+}
+
+button{
+    font-size: 20px;
+    width: fit-content;
+    padding: 0px 10px 0 10px;
+}
